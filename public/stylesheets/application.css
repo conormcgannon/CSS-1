@@ -1,0 +1,19 @@
+body {
+  background-color: burlywood;
+}
+
+p { /* anything with p denotion from the Index file will be impacted by the following*/
+  color: green;
+  font-size: 30px;
+}
+
+/* #grogu */
+.smaller {/*going to look through our HTML and find anything with .smaller*/
+  font-size: 12px;
+}
+
+
+/* Rules: 
+Last command wins if there are competing commands.
+Heirarchy of specificity
+*/
